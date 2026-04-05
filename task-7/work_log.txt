@@ -18,4 +18,7 @@ commands used
 11.  git cherry-pick e09d8a4
 12. git cherry-pick 578ba10
 13. git cherry-pick 21a6bf2
+14. git add .
+15. git commit -m "task-7 1.1"
+16 git push origin main
 
