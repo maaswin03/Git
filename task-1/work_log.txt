@@ -37,3 +37,14 @@ commands used
 5. git commit -m "task-1 1.2"
 6. git push origin main
 
+final -> task-1 1.3
+1. deleting the branch feature-1
+2. and pushing to git
+3. pushing updated work_log.txt
+
+commands used
+1. git branch -d feature-1
+2. git push origin --delete feature-1
+3. git add .
+4. git commit -m "task-1 1.3"
+5. git push origin main
