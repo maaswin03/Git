@@ -1,0 +1,12 @@
+commit -> task-2 1.0
+1. created demo.js with functions subNumber and addNumber
+2. created .env with PORT and BACKEND_URL values
+3. created .gitignore file for ignoring .env and .DS_Store while pushing
+4. pushing the code into repo
+
+commands used
+1. git add .
+2. git commit -m "task-2 1.0"
+3. git push origin main
+4. git check-ignore
+5. git ls-files
