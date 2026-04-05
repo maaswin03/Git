@@ -1,0 +1,5 @@
+1. created a pre-commit file in .git/hooks
+2. checks for console.log in .js files stagged files
+3. checks .env file for stagged files
+4. if not present commit will happen else commit will not allowed
+
