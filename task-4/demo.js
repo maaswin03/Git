@@ -1,5 +1,5 @@
-let c = 20;
-let d = 10;
+let fun = 200;
+let run = 100;
 
 function addNumber(a, b) {
   const answer = a + b;
@@ -11,5 +11,5 @@ function subNumber(a, b) {
   console.log("The answer is : ", answer);
 }
 
-subNumber(c, d);
-addNumber(c, d);
+subNumber(fun, run);
+addNumber(fun, run);
