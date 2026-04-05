@@ -1,0 +1,39 @@
+commit -> task-1 1.0
+1. added a demo.js file with addNumber function 
+2. then pushed to git 
+
+commands used 
+1. git init
+2. git add .
+3. git commit -m "task-1 1.0"
+4. git remote add origin https://github.com/maaswin03/Git.git
+5. git push origin main 
+
+
+commit -> task-1 1.1
+1. switched to a new branch named feature-1
+2. added a new function named subNumber in the same demo.js
+3. then pushed to git 
+
+commands used 
+1. git branch
+2. git checkout -b feature-1
+3. git add .
+4. git commit -m "task-1 1.1"
+5. git push origin feature-1
+
+
+commit -> task-1 1.2
+1. switched to main branch
+2. merged the feature-1 branch with main.
+3. added work_log.txt for commit and commands detail.
+4. then pushed to git 
+
+commands used 
+1. git branch
+2. git checkout main
+3. git merge feature-1
+4. git add .
+5. git commit -m "task-1 1.2"
+6. git push origin main
+
