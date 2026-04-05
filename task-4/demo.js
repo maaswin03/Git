@@ -1,5 +1,5 @@
-let c = 20;
-let d = 10;
+let c = 2000000;
+let d = 1000000;
 
 function addNumber(a, b) {
   const answer = a + b;
