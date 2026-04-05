@@ -1,0 +1,8 @@
+commit -> task-3 1.0
+1. created file demo.js and work_log.txt
+2. pushed to git
+
+command used
+1. git add .
+2. git commit -m "task-3 1.0"
+3. git push origin main
