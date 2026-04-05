@@ -15,13 +15,18 @@ command used
 commit -> final
 1. modified the variable names in demo.js
 2. pushed in git
-3. reverted back to task-3 1.0 commit
+3. used reset --soft , --mixed , --hard
 
 command used
 1. git add .
 2. git commit -m "final"
-3. git push origin main
-4. git revert HEAD
+3. git reset --soft HEAD~1
+4. git add .
+5. git commit -m "final"
+6. git reset --mixed HEAD~1
+7. git add .
+8. git commit -m "final"
+9. git reset --hard HEAD~1
 
 
 commit -> task-3 1.1
@@ -30,7 +35,27 @@ commit -> task-3 1.1
 
 command used
 1. git add .
-2. git commit -m "final"
+2. git commit -m "task-3 1.1"
 3. git push origin main
 
+commit -> task-3 1.2
+1. modified the variable names in demo.js
+2. pushed in git
+
+command used
+1. git add .
+2. git commit -m "task-3 1.2"
+3. git push origin main
+4. git revert HEAD
+5. git push origin main -> created a new commit Revert "task-3 1.2"
+
+
+commit -> task-3 1.3
+1. updated work_log.txt
+2. pushed in git
+
+command used
+1. git add .
+2. git commit -m "task-3 1.3"
+3. git push origin main
 
