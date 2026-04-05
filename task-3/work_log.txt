@@ -6,3 +6,31 @@ command used
 1. git add .
 2. git commit -m "task-3 1.0"
 3. git push origin main
+4. git restore demo.js  -> to restore the files after modification from previous commit
+5. git checkout -- demo.js -> to restore the files after modification from previous commit
+6. git add demo.js
+7. git restore --staged demo.js -> remove file from staged area
+
+
+commit -> final
+1. modified the variable names in demo.js
+2. pushed in git
+3. reverted back to task-3 1.0 commit
+
+command used
+1. git add .
+2. git commit -m "final"
+3. git push origin main
+4. git revert HEAD
+
+
+commit -> task-3 1.1
+1. modified the variable names in demo.js
+2. pushed in git
+
+command used
+1. git add .
+2. git commit -m "final"
+3. git push origin main
+
+
